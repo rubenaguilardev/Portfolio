@@ -1,4 +1,4 @@
-@import "tailwindcss"
+@import "tailwindcss";
 
 @theme {
   --color-border: hsl(var(--border));
@@ -135,7 +135,7 @@
 }
 
 @utility cosmic-button{
-  @apply px-6 py-2 rounded-full bg-primary tet-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95;
 }
 
 @utility star {
