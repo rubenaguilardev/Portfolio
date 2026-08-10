@@ -28,7 +28,7 @@ const projects = [
     github: 'https://github.com/rubenaguilardev/Social-Buffington'
   },
   {
-    title: "Stemly - Work in progress",
+    title: "Stemly",
     description: 'Stemly is a job application tracking app with a structured dashboard for managing applications, monitoring status changes, and surfacing conversion analytics like interview rates, offer rates, and average response time.',
     image: stemly,
     tags: ["React", 'TypeScript', 'TailwindCSS', "FastAPI", "PostgreSQL", "Figma", "Canva",],
