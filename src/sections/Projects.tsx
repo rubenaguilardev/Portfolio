@@ -33,7 +33,7 @@ const projects = [
     image: stemly,
     tags: ["React", 'TypeScript', 'TailwindCSS', "FastAPI", "PostgreSQL", "Figma", "Canva",],
     link: 'https://v60-tier3-team-39.netlify.app/',
-    github: 'https://github.com/chingu-voyages/V59-tier3-team-39',
+    github: 'https://github.com/chingu-voyages/V60-tier3-team-39',
     figma: 'https://www.figma.com/design/R57ocInGi4U0TA72AmSRWV/Stemly?node-id=0-1&t=xlxnKhzlPv6Iw1ZL-1'
   },
   {
