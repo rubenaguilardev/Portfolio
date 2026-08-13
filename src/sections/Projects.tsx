@@ -6,7 +6,6 @@ import chingu from '../assets/chingu.avif'
 import social from '../assets/sb.avif'
 import cisco from '../assets/cisco.avif'
 import stemly from '../assets/stemly.avif'
-import paws from '../assets/paws.avif'
 
 
 const projects = [
