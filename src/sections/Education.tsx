@@ -8,8 +8,8 @@ const degrees = [
     date: 'Expected 2026',
     university: 'Western Governors University',
     degree: 'Computer Science',
-    specialization: 'Specilization in Computer Systems',
-    keyCourses: ['Computer Architecture', 'Software Architecture', 'Applied Algorithms', 'AI and Machine Learning Foundations', 'Network Architecure', 'Cloud Computing'],
+    specialization: 'Specialization in Computer Systems',
+    keyCourses: ['Software Architecture', 'Applied Algorithms', 'Network Architecture', 'Cloud Computing'],
     icon: SiBookstack
   },
   {

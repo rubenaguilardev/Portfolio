@@ -6,13 +6,20 @@ import chingu from '../assets/chingu.avif'
 import social from '../assets/sb.avif'
 import cisco from '../assets/cisco.avif'
 import stemly from '../assets/stemly.avif'
-import paws from '../assets/paws.avif'
 
 
 const projects = [
   {
-    title: "CiscoPatch - Design in progress",
-    description: 'A modern, professional website for a drywall contractor featuring a streamlined photo-based estimate request system that saves time and eliminates unnecessary site visits.',
+    title: "Social Buffington",
+    description: 'A portfolio site for a digital marketing consultant, built around full-bleed photography. Converted 100+ high-resolution images to AVIF with Sharp and lazy-loaded the gallery through an Embla Carousel, cutting image payload over 90% with no visible quality loss.',
+    image: social,
+    tags: ["React", 'JavaScript', 'Embla', "Figma", "Canva",],
+    link: 'https://socialbuffington.com',
+    github: 'https://github.com/rubenaguilardev/Social-Buffington'
+  },
+  {
+    title: "CiscoPatch - Work in progress",
+    description: 'A website for a drywall contractor with a photo-based estimate request system that lets customers submit project photos directly, so quotes get generated remotely instead of through a site visit. Interface designed in Figma, Supabase REST endpoints wired into a React and TypeScript front end.',
     image: cisco,
     tags: ['React', 'TypeScript', 'TailwindCSS', 'Supabase', 'PostgreSQL', "Figma", 'Canva'],
     link: 'https://www.ciscopatch.com/',
@@ -20,16 +27,17 @@ const projects = [
     figma: 'https://www.figma.com/design/hSWBAlV63msPpCTTiDXn6d/CiscoPatch?node-id=0-1&p=f'
   },
   {
-    title: "Social Buffington",
-    description: 'A bespoke digital marketing portfolio crafted to showcase high-quality photography and a passion for the craft through an immersive, visually-driven experience.',
-    image: social,
-    tags: ["React", 'JavaScript', 'Embla', "Figma", "Canva",],
-    link: 'https://socialbuffington.com',
-    github: 'https://github.com/rubenaguilardev/Social-Buffington'
+    title: "Chingu Demographics",
+    description: 'A full-stack interactive world map for the Chingu community that lets developers, designers, and product managers find teammates by role, tier, timezone, and country. Designed and componentized the map and filter interface in Next.js and Tailwind CSS.',
+    image: chingu,
+    tags: ['Nex', 'TypeScript', 'TailwindCSS', "Figma", "Canva", 'Spring'],
+    link: 'https://v58-tier3-team-39.onrender.com/',
+    github: 'https://github.com/chingu-voyages/V58-tier3-team-39',
+    figma: 'https://www.figma.com/design/UEGHVlucUZSJjj9HCnFEF6/Chingu-Demographics?node-id=0-1&t=xlxnKhzlPv6Iw1ZL-1'
   },
   {
     title: "Stemly",
-    description: 'Stemly is a job application tracking app with a structured dashboard for managing applications, monitoring status changes, and surfacing conversion analytics like interview rates, offer rates, and average response time.',
+    description: 'A job application tracker with a dashboard for managing applications, monitoring status changes, and surfacing conversion analytics like interview rate, offer rate, and average response time. Built the analytics dashboard end to end on a Chingu Voyage team.',
     image: stemly,
     tags: ["React", 'TypeScript', 'TailwindCSS', "FastAPI", "PostgreSQL", "Figma", "Canva",],
     link: 'https://v60-tier3-team-39.netlify.app/',
@@ -38,29 +46,11 @@ const projects = [
   },
   {
     title: "Debug Your Interview",
-    description: 'A role-focused interview practice web app featuring an interactive Q&A demo, a curated simulator with model answers for five tech roles, and a live project case study with a roadmap toward LLM-powered feedback and session analytics.',
+    description: 'A role-focused interview practice app with an interactive Q&A demo and a curated simulator carrying model answers for five tech roles. Built the landing page on a Chingu Voyage team.',
     image: debug,
     tags: ["React", 'TypeScript', 'TailwindCSS', 'Django', 'Neon'],
     link: 'https://v59-tier3-team-39.netlify.app/',
     github: 'https://github.com/chingu-voyages/V59-tier3-team-39'
-  },
-  {
-    title: "Chingu Demographics",
-    description: 'Built a full-stack interactive world map for the Chingu community that lets developers, designers, and PMs discover and connect with teammates globally, featuring role, tier, timezone, and country filters across different technologies.',
-    image: chingu,
-    tags: ['Nex', 'TypeScript', 'TailwindCSS', "Figma", "Canva", 'Spring'],
-    link: 'https://v58-tier3-team-39.onrender.com/',
-    github: 'https://github.com/chingu-voyages/V58-tier3-team-39',
-    figma: 'https://www.figma.com/design/UEGHVlucUZSJjj9HCnFEF6/Chingu-Demographics?node-id=0-1&t=xlxnKhzlPv6Iw1ZL-1'
-  },
-  {
-    title: "Little Paws",
-    description: 'A warm and inviting pet adoption platform where future owners can browse and connect with dogs and cats looking for their forever home.',
-    image: paws,
-    tags: ['React', 'TypeScript', 'TailwindCSS', 'Figma', 'Canva',],
-    link: 'https://v57-tier3-team-40.netlify.app/',
-    github: 'https://github.com/chingu-voyages/V57-tier3-team-40',
-    figma: 'https://www.figma.com/design/jrXhqo2KB28HM249MQ493A/Untitled?node-id=0-1&t=0rSEdfeOeBH2n6EV-1'
   },
 ]
 
@@ -70,7 +60,7 @@ const Projects = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mx-auto max-w-3xl mb-16">
           <span className="text-primary text-sm font-medium tracking-wider uppercase animate-fade-in">Featured Work</span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100"><span className="text-primary glow-text">Projects</span> that make an impact.</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100">Things I <span className="text-primary glow-text">built and shipped</span> that make an impact.</h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
             A selection of projects built with clean code, thoughtful design, and real-world impact.
           </p>

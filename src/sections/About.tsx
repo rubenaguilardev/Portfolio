@@ -14,8 +14,8 @@ const About = () => {
               <span className='text-primary glow-text'> Developer</span>
             </h2>
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
-              <p>I'm a full-stack developer with a passion for building things that look just as good as they work, currently deepening that foundation through a Master's in Computer Science. I care deeply about the details, from the way a component feels on mobile to the logic powering it behind the scenes.</p>
-              <p>I specialize in crafting clean interfaces with React, Next.js, TypeScript, and Tailwind, bringing Figma and Canva designs into polished responsive experiences, backed by Node.js, Express, PostgreSQL, and MongoDB.</p>
+              <p>I design the interface and then build it, which means nothing gets lost in the handoff because there is no handoff. I work in Figma, React, Next.js, TypeScript, and Tailwind, backed by Node.js, Express, PostgreSQL, and MongoDB when a project needs a backend.</p>
+              <p>The people I build for feel the result directly: a marketing consultant whose portfolio site had to load 100+ high-resolution photographs without crawling, and a drywall contractor who needed customers to request an estimate by uploading photos instead of booking a site visit.</p>
               <p>When I'm not pushing commits, you'll find me in the kitchen experimenting with new recipes or settled in for a good movie.</p>
             </div>
             <div className="glass glow-border rounded-2xl p-6 animate-fade-in animation-delay-300">
