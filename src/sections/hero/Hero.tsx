@@ -25,17 +25,12 @@ const Hero = () => {
             </div>
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Craft. <span className="text-primary glow-text">Code.</span>
-                <br />
-                <span className="bg-linear-to-r from-primary to-primary/50 bg-clip-text text-transparent">
-                  Deliver.
-                </span>
+                I design the interface <span className="text-primary">then I build it.</span>
               </h1>
               <p className="text-lg font-medium text-muted-foreground max-w-lg lg:max-w-xl animate-fade-in animation-delay-200">
-                Hi, I'm
-                <span className="text-white"> Ruben</span>
-                , a <span className="text-primary">frontend software developer </span>
-                pursuing my Master's in CS, with an eye for detail and a love for good design. I build fast, polished web apps, work well in teams, and care deeply about the craft.
+                I am a 
+                <span className="text-primary"> frontend developer </span>
+                finishing an M.S. in Computer Science, with over 2 years of apprenticeship, internship, and freelance experience across EdTech and small business web. I have shipped 5+ React and TypeScript applications from Figma wireframe to deployed build, including a client photography site where converting 100+ images to AVIF cut image payload over 90% with no visible quality loss.
               </p>
               <div className='flex items-center gap-4'>
                 <span></span>

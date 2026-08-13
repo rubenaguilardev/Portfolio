@@ -2,9 +2,9 @@
 const info = [
   { num: '01', label: 'const', text: 'developer = {', numStyles: 'mr-2', labelStyles: 'text-primary', },
   { num: '02', label: 'name:', text: "'Ruben Aguilar'", numStyles: 'mr-5', labelStyles: 'text-secondary', textStyles: 'text-[#81A9F1]' },
-  { num: '03', label: 'focus:', text: "'Full-stack'", numStyles: 'mr-5', labelStyles: 'text-secondary', textStyles: 'text-[#81A9F1]' },
+  { num: '03', label: 'focus:', text: "'Frontend'", numStyles: 'mr-5', labelStyles: 'text-secondary', textStyles: 'text-[#81A9F1]' },
   { num: '04', label: 'skills:', text: "'React', 'Express', 'Design'", numStyles: 'mr-5', labelStyles: 'text-secondary', textStyles: 'text-[#81A9F1]' },
-  { num: '05', label: 'passionate:', text: 'true', numStyles: 'mr-5', labelStyles: 'text-secondary', textStyles: 'text-primary-foreground' },
+  { num: '05', label: 'shipped:', text: "'5+ production apps'", numStyles: 'mr-5', labelStyles: 'text-secondary', textStyles: 'text-[#81A9F1]' },
   { num: '06', label: '}', numStyles: 'mr-2', },
   { num: '07', label: 'developer', text: '.showcase()', numStyles: 'mr-5', labelStyles: 'text-primary', }
 ]
