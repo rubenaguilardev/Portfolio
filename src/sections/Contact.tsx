@@ -4,7 +4,7 @@ import gmail from "@/assets/gmail.svg"
 import Button from "@/components/ui/Button"
 
 const contactlLinks = [
-  { icon: gmail, href: 'mailto:ragui56@wgu.edu', color: ' ' },
+  { icon: gmail, href: 'mailto:benaguilardev@outlook.com', color: ' ' },
   { icon: FaLinkedin, href: 'https://www.linkedin.com/in/rubenaguilar-/', color: '#0a66c2' },
   { icon: FaGithub, href: 'https://github.com/rubenaguilardev', color: '' },
   { icon: FaBluesky, href: 'https://bsky.app/profile/benaguilar.bsky.social', color: '#0085ff' }
