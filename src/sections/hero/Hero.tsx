@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary animate-fade-in">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • Full-stack Developer
+                Software Engineer • Frontend Developer
               </span>
             </div>
             <div className="space-y-4">
@@ -34,7 +34,7 @@ const Hero = () => {
               <p className="text-lg font-medium text-muted-foreground max-w-lg lg:max-w-xl animate-fade-in animation-delay-200">
                 Hi, I'm
                 <span className="text-white"> Ruben</span>
-                , a <span className="text-primary">full-stack software developer </span>
+                , a <span className="text-primary">frontend software developer </span>
                 pursuing my Master's in CS, with an eye for detail and a love for good design. I build fast, polished web apps, work well in teams, and care deeply about the craft.
               </p>
               <div className='flex items-center gap-4'>
@@ -56,7 +56,7 @@ const Hero = () => {
                 <Button className='' size='lg'>Contact me <FaLongArrowAltRight className='w-5 h-5' /></Button>
               </a>
               <a href="#projects">
-                <AnimatedBorderButton>View Projects</AnimatedBorderButton>
+                <AnimatedBorderButton>Download Resume</AnimatedBorderButton>
               </a>
             </div>
 
