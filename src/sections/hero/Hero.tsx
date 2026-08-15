@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary animate-fade-in">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • Frontend Developer
+                Frontend Engineer
               </span>
             </div>
             <div className="space-y-4">
@@ -51,7 +51,7 @@ const Hero = () => {
                 <Button className='' size='lg'>Contact me <FaLongArrowAltRight className='w-5 h-5' /></Button>
               </a>
               <a href="#projects">
-                <AnimatedBorderButton>Download Resume</AnimatedBorderButton>
+                <AnimatedBorderButton>View Projects</AnimatedBorderButton>
               </a>
             </div>
 
